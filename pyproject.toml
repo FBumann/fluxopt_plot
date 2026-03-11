@@ -26,7 +26,7 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Visualization",
 ]
 dependencies = [
-    "fluxopt",
+    "fluxopt>=0.0.1a0",
     "plotly>=6",
 ]
 
@@ -44,7 +44,6 @@ include = ["src/fluxopt_plot/", "LICENSE", "README.md"]
 
 [dependency-groups]
 dev = [
-    "fluxopt",
     "mypy==1.19.1",
     "pre-commit==4.5.1",
     "pytest==9.0.2",
